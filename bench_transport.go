@@ -46,7 +46,7 @@ func main() {
     goChan := make(chan int)
     rdyChan := make(chan int)
     for j := 0; j < *conns; j++ {
-        log.Printf("put worker %d", j)
+        // log.Printf("put worker %d", j)
         wg.Add(1)
         go func() {
             pubWorker(*runfor, *tcpAddress, req, rdyChan, goChan)
