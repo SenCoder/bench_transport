@@ -1,0 +1,4 @@
+time="2019-06-04T21:32:07+08:00" level=info msg="GOMAXPROCS: 1"
+time="2019-06-04T21:32:07+08:00" level=info msg="conf.ParseConfig ok, file cfg.json"
+time="2019-06-04T21:32:07+08:00" level=debug msg="{true [127.0.0.1:4150] 0 0 0    3 [data-metric]  500}"
+time="2019-06-04T21:32:07+08:00" level=fatal msg="listen 0.0.0.0:3002 fail: listen tcp 0.0.0.0:3002: bind: address already in use"

@@ -1,0 +1,20 @@
+{
+    "loglevel": 5,
+    "http": {
+        "enabled": true,
+        "listen": "0.0.0.0:3000"
+    },
+    "rpc": {
+        "enabled": true,
+        "listen": "0.0.0.0:3002"
+    },
+    "nsq": {
+        "enabled": true,
+        "addrs": [
+            "127.0.0.1:4150"
+        ],
+        "topics": [
+            "data-metric"
+        ]
+    }
+}
